@@ -21,9 +21,8 @@
         }
         return false;
         
-    }else{
-        return false;
     }
+    return false;
 }
 //指纹验证方法
 - (void) anthTouchID:(NSString *) describe complete:(void(^)(NSString *backStr)) complete extra:(CDVInvokedUrlCommand*)command
